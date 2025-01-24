@@ -33,6 +33,7 @@
 				installPhase = ''
 					mkdir -p $out/bin
 					cp parser $out/bin/swift-grammar
+					cp parser $out
 				'';
 			};
 			devShell = pkgs.mkShell {
